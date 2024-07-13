@@ -4,12 +4,10 @@ The Cahn-Hilliard equation is a non-linear partial differential equation used to
 
 The Cahn-Hilliard equation is given by:
 
-<div align="center">
-<img src="https://latex.codecogs.com/svg.latex?\frac{\partial \phi(x, t)}{\partial t} = M \nabla^2 \mu(x, t)" alt="\frac{\partial \phi(x, t)}{\partial t} = M \nabla^2 \mu(x, t)">
-</div>
+$\frac{\partial \phi(x, t)}{\partial t} = M \nabla^2 \mu(x, t)$
 
-where the chemical potential \(\mu(x, t)\) is:
+where the chemical potential $(\mu(x, t))$ is:
 
-<div align="center">
-<img src="https://latex.codecogs.com/svg.latex?\mu(x, t) = -a\phi + b\phi^3 - \kappa \nabla^2 \phi" alt="\mu(x, t) = -a\phi + b\phi^3 - \kappa \nabla^2 \phi">
-</div>
+
+$\mu(x, t) = -a\phi + b\phi^3 - \kappa \nabla^2 \phi$
+
