@@ -16,3 +16,4 @@ Here $\phi(x, t)$ is the compositional order parameter $a$ and $b$ are constants
 
 
 
+
