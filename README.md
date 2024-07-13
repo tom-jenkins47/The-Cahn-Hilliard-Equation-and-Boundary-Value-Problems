@@ -1,2 +1,17 @@
-# The-Cahn-Hilliard-Equation-and-Boundary-Value-Problems-
-Code to simulate the spinodal decomposition of a phase-separated fluid mixture and various electric and magnetic field effects. The code uses a finite differences scheme to numerically solve the non-linear Cahn Hilliard equation, and boundary value methods to simulate the behaviour of different electrostatic and magnetic fields.
+## The Cahn-Hilliard Equation ##
+
+The Cahn-Hilliard equation is a non-linear partial differential equation used to describe phase separation in systems such as water-oil emulsions. Unlike the linear diffusion equation, the Cahn-Hilliard equation cannot be solved analytically but can be approached numerically using finite difference methods.
+
+The Cahn-Hilliard equation is given by:
+
+\[
+\frac{\partial \phi(x, t)}{\partial t} = M \nabla^2 \mu(x, t)
+\]
+
+where the chemical potential \(\mu(x, t)\) is:
+
+\[
+\mu(x, t) = -a\phi + b\phi^3 - \kappa \nabla^2 \phi
+\]
+
+
