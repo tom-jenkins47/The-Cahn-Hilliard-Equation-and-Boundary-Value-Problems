@@ -12,6 +12,8 @@ $\mu(x, t) = -a\phi + b\phi^3 - \kappa \nabla^2 \phi$
 
 Here $\phi(x, t)$ is the compositional order parameter $a$ and $b$ are constants, $\kappa$ relates to the surface tension and $M$ is the mobility constant. The Laplacian and the time derivative are approximated to simulate phase separation dynamics.
 
+#### Run the code CahnHilliardSimulation.py and follow the prompts to either simulate a phase-separated fluid on a defined grid size, or collect data relating to the evolution of the system over time. If using the Spyder IDE, ensure the plotting backend is set to automatic. ####
+
 
 
 
