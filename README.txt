@@ -1,5 +1,3 @@
-Tom Jenkins CP3
-
 The file Functions.py is a script containing all of the field and potential functions. 
 The functions within this class use the numba package. Details can be found here: https://numba.readthedocs.io/en/stable/user/jit.html.
 To install numba: $ conda install numba
